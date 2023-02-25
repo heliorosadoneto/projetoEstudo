@@ -4,13 +4,13 @@ namespace App\Model;
 class Pessoa {
     private $titular, $conta, $agencia, $senha, $saldo;
 
-    public function __construct($titular, $conta, $agencia, $senha, $saldo){
+    /*public function __construct($titular, $conta, $agencia, $senha, $saldo){
         $this->setTitular($titular);
         $this->setConta($conta);
         $this->setAgencia($agencia);
         $this->setSenha($senha);
         $this->setSaldo($saldo);
-    }
+    }*/
     public function setTitular( $titular ) {
         $this->titular = $titular;
     }
@@ -50,3 +50,4 @@ class Pessoa {
         return $this->saldo;
     }
 }
+

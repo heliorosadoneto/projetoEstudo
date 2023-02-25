@@ -1,13 +1,25 @@
 <?php
-use App\Model\Pessoa;
-
+namespace App\Model;
 require_once 'vendor/autoload.php';
 
-$contaCadastro = new App\Model\ContaPessoa();
-$contaCadastro->create($pessoa);
 
 
-$pessoa = new Pessoa('Wesley Rosado', 333, 222, 123, 300);
 
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco XL</title>
+</head>
+<body>
+    <h1>Cliente </h1>
+</body>
+</html>
 
 
